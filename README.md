@@ -11,7 +11,7 @@ This is a sample site of Audi which was developed by me and designed by my frien
 1. HTML
 2. CSS
 
-### Things I've to Improve in this:
+### Features to be Added:
 1. Reduce the number of modules
 2. Make it responsive
 
