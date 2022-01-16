@@ -11,11 +11,11 @@ You can contact the designer of this site here - [LinkedIn - @ShivanshSingh](htt
 2.CSS
 
 ### Things I've to Improve in this:
-1.Reduce the number of modules
-2.Make it responsive
+1. Reduce the number of modules
+2. Make it responsive
 
 ### Screenshots:
 
-![Home Page](Screenshot 1.png)
-![Discover Page](Screenshot 2.png)
-![AllModels Page](Screenshot 3.png)
+<img src='Screenshot 1.png'>
+<img src='Screenshot 2.png'>
+<img src='Screenshot 3.png'>
