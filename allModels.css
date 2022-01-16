@@ -1,0 +1,196 @@
+html 
+{
+    height: 150%;
+}
+
+body
+{
+    background: linear-gradient(to bottom, #3c3d3d, #F0F2F0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar
+{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+
+}
+
+.logo
+{
+    width: 140px;
+}
+
+#RS
+{
+    position: absolute;
+    width: 100px;
+    top: 35px;
+    right: 20px;
+} 
+
+.all
+{
+    position: absolute; 
+    top: 160px;
+    left: 90px;
+    font-size: 29px;
+    color: rgb(30, 3, 36);
+}
+
+.models
+{
+    width: 95%;
+    padding: 70px 35px 0 35px;
+    display: grid;
+    grid-template-rows: 200px 30px ;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 80px;
+}
+
+.car1
+{
+    background: url(Audi-A6-Side.png);
+    background-size: cover;
+    background-position:center;
+    transition: all 0.9s ease-in-out;
+}
+
+.car1:hover
+{
+    transform: scale(1.2);
+}
+
+.car2
+{
+    background: url(audi_a8.png);
+    background-size: cover;
+    background-position-y: -35px;
+    transform: scale(1.3);
+    transition:all 0.9s ease-in-out;
+}
+
+.car2:hover
+{
+    transform: scale(1.5);
+}
+
+.car3
+{
+    background: url(audi_a7.png);
+    background-size: cover;
+    background-position-y: -18px;
+    transition: all 0.9s ease-in-out;
+}
+
+.car3:hover
+{
+    transform: scale(1.2);
+}
+
+.car4
+{
+    background: url(audi_q8.png);
+    background-size: cover;
+    background-position-y: -25px;
+    transition:all 0.9s ease-in-out;
+}
+
+.car4:hover
+{
+    transform: scale(1.2);
+}
+
+.line
+{
+    display:block;
+    border-top: 2px solid black;
+}
+
+#carName1
+{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 370px;
+    left: 150px;
+}
+
+#carName2
+{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 370px;
+    left: 530px;
+}
+
+#carName3
+{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 370px;
+    left: 920px;
+}
+
+#carName4
+{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 370px;
+    left: 1310px;
+}
+
+#r8
+{
+    width: 55%;
+    padding-left: 300px;
+    opacity: 0.5;
+}
+
+#coming
+{
+    color: grey;
+    font-size: 60px;
+    font-weight: bolder;
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    
+}
+
+#soon
+{
+    color: grey;
+    font-size: 60px;
+    font-weight: bolder;
+    position: absolute;
+    top: 690px;
+    right: 230px;
+}
+
+#carName5
+{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 870px;
+    left: 650px;
+}

@@ -1,0 +1,161 @@
+body
+{
+    background: url(rsQ83.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar
+{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+
+.logo
+{
+    width: 140px;
+}
+
+#audi
+{
+    position: absolute;
+    left: 7%;
+    top: 14%;
+    color: #afaaaa;
+    font-size: 30px;
+    
+}
+
+#RS
+{
+    position: absolute;
+    width: 100px;
+    top: 35px;
+    right: 20px;
+}
+
+#down
+{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    font-size: 20px;
+    color: #afaaaa;
+    font-style: italic;
+}
+
+#side
+{
+    position: absolute;
+    bottom: 300px;
+    right: 60px;
+    color: #afaaaa;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#book
+{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    font-size: 20px;
+    color: #b9b3b3;
+    font-style: italic;
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+#book:hover
+{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+#book::after
+{
+    content: " ----->";
+    
+}
+
+main
+{
+    width: 75%;
+    margin: 350px 50px 20px 300px;
+    padding: 2px 0;
+    display: grid;
+    grid-template-rows: 180px ;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.box3
+{
+    background: url(rsQ8Thumb3.jpg);
+    background-size: cover;
+    background-position: center;
+    transition:  0.8s ease;
+}
+
+.box3:hover
+{
+    transform: scale(1.03);
+}
+
+.box2
+{
+    background: url(rsQ8Thumb2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.8s ease;
+    opacity: 0.65;
+}
+
+.box2:hover
+{
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+.box1
+{
+    background:url(rsQ8Thumb.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.8s ease;
+    opacity: 0.65;
+}
+
+.box1:hover
+{
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+.box4
+{
+    background: url(rsQ8Thumb4.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.8s ease;
+    opacity: 0.65;
+}
+
+.box4:hover
+{
+    opacity: 1;
+    transform: scale(1.03);
+}
